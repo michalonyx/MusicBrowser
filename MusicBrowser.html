@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<title>Music Browser</title>
+	</head>
+	<body>
+		<div class="search">
+			<form onsubmit="searchArtists(1);return false">
+				<input id="search" type="text" placeholder="Search..." />
+			</form>
+		</div>
+		<script type="text/javascript" src="js/search-artists.js"></script>
+		<div id="result2"></div>
+		<div class="pagination-container">
+			<nav>
+				<ul id="pagination">
+				</ul>
+			</nav>
+		</div>
+	</body>
+</html>
